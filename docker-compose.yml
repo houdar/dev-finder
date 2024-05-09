@@ -3,14 +3,15 @@ services:
   dev-finder-db:
     image: postgres
     restart: always
-    container_name: dev-finder-db
+    container_name: dev-chat-db
     ports:
       - 5432:5432
     environment:
-      POSTGRES_PASSWORD: example
+      POSTGRES_PASSWORD: loula2003
       PGDATA: /data/postgres
     volumes:
       - postgres:/data/postgres
 
 volumes:
   postgres:
+

@@ -6,6 +6,7 @@ import { Header } from "./header";
 import NextTopLoader from "nextjs-toploader";
 import { Toaster } from "@/components/ui/toaster";
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
